@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+chest_x_ray_images/
+chest_xray_model.h5
+chest_xray_model.keras

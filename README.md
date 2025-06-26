@@ -1,1 +1,1 @@
-# chest_x_ray_ai_ml
+# chest_x_ray_ml
