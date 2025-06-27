@@ -21,6 +21,7 @@ def load_model():
 
 model = load_model()
 
+
 # Grad-CAM function
 def get_gradcam_heatmap(img_array, model, last_conv_layer_name="conv2d_1"):
     grad_model = tf.keras.models.Model(
