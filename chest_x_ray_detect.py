@@ -11,7 +11,6 @@ st.set_page_config(page_title="🩺 Chest X-ray Pneumonia Detection", layout="ce
 
 MODEL_PATH = "chest_xray_model.h5"  # Or use .keras if preferred
 
-
 # Load model
 @st.cache_resource(show_spinner=False)
 def load_model():

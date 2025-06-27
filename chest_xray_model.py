@@ -9,7 +9,6 @@ train_dir = "chest_x_ray_images/train"
 test_dir = "chest_x_ray_images/test"
 model_path = "chest_xray_model.keras"
 
-
 # Image generators
 train_gen = ImageDataGenerator(rescale=1./255, zoom_range=0.2, horizontal_flip=True)
 test_gen = ImageDataGenerator(rescale=1./255)
